@@ -213,7 +213,7 @@ export function ChatHome() {
                 className="inline-flex flex-col items-center"
               >
                 <h1 className="text-[26px] font-medium tracking-tight text-ink sm:text-[30px]">
-                  Good afternoon, Mac
+                  Good afternoon, Kieron
                 </h1>
                 <motion.div
                   className="mt-2 h-px w-16 bg-gradient-to-r from-transparent via-border to-transparent"
@@ -244,7 +244,7 @@ export function ChatHome() {
                   value={draft}
                   onChange={setDraft}
                   onSubmit={() => send(draft)}
-                  placeholder="Ask Northbeam anything..."
+                  placeholder="Ask Treacy Solar anything..."
                   size="lg"
                 />
               </motion.div>

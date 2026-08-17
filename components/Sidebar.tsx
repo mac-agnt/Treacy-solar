@@ -42,7 +42,7 @@ export function Sidebar({
               className="overflow-hidden whitespace-nowrap"
             >
               <p className="text-[15px] font-semibold leading-tight text-ink">
-                Northbeam
+                Treacy Solar
               </p>
               <p className="text-[11px] leading-tight text-ink-faint">
                 Workspace
@@ -129,11 +129,11 @@ export function Sidebar({
           onClick={() => router.push("/settings")}
           className="mt-1 flex h-12 items-center gap-2.5 rounded-[10px] px-2.5 text-left transition-colors duration-150 hover:bg-border-soft"
         >
-          <Avatar initials="MA" size={32} />
+          <Avatar initials="KB" size={32} />
           {!collapsed && (
             <div className="min-w-0 overflow-hidden">
               <p className="truncate text-[13px] font-semibold leading-tight text-ink">
-                Mac O&apos;Brien
+                Kieron Bolt
               </p>
               <p className="truncate text-[11px] leading-tight text-ink-faint">
                 View profile

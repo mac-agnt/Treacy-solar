@@ -1,16 +1,16 @@
 import type { Icon } from "@phosphor-icons/react";
 import {
   Sparkle,
-  House,
-  SquaresFour,
   Kanban,
-  CalendarBlank,
-  ChartLineUp,
   FileText,
+  SealCheck,
+  CalendarBlank,
+  Package,
+  CurrencyEur,
+  HeartStraight,
+  HouseLine,
+  ChartLineUp,
   Users,
-  AddressBook,
-  ChatCircleDots,
-  Lightning,
   Gear,
 } from "@phosphor-icons/react/dist/ssr";
 
@@ -23,16 +23,16 @@ export type NavItem = {
 
 export const primaryNav: NavItem[] = [
   { label: "Home", href: "/", icon: Sparkle, slug: "home" },
-  { label: "Dashboard", href: "/dashboard", icon: House, slug: "dashboard" },
-  { label: "Feed", href: "/test/feed", icon: SquaresFour, slug: "feed" },
-  { label: "Projects", href: "/test/projects", icon: Kanban, slug: "projects" },
-  { label: "Schedule", href: "/test/schedule", icon: CalendarBlank, slug: "schedule" },
-  { label: "Analytics", href: "/test/analytics", icon: ChartLineUp, slug: "analytics" },
-  { label: "Reports", href: "/test/reports", icon: FileText, slug: "reports" },
-  { label: "Team", href: "/test/team", icon: Users, slug: "team" },
-  { label: "Directory", href: "/test/directory", icon: AddressBook, slug: "directory" },
-  { label: "Messages", href: "/test/messages", icon: ChatCircleDots, slug: "messages" },
-  { label: "Automations", href: "/test/automations", icon: Lightning, slug: "automations" },
+  { label: "Projects", href: "/projects", icon: Kanban, slug: "projects" },
+  { label: "Documents", href: "/documents", icon: FileText, slug: "documents" },
+  { label: "Compliance", href: "/compliance", icon: SealCheck, slug: "compliance" },
+  { label: "Schedule", href: "/schedule", icon: CalendarBlank, slug: "schedule" },
+  { label: "Materials", href: "/materials", icon: Package, slug: "materials" },
+  { label: "Payments", href: "/payments", icon: CurrencyEur, slug: "payments" },
+  { label: "Aftercare", href: "/aftercare", icon: HeartStraight, slug: "aftercare" },
+  { label: "Properties", href: "/properties", icon: HouseLine, slug: "properties" },
+  { label: "Ops Health", href: "/ops", icon: ChartLineUp, slug: "ops" },
+  { label: "Team", href: "/team", icon: Users, slug: "team" },
 ];
 
 export const secondaryNav: NavItem[] = [

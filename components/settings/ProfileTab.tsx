@@ -18,7 +18,7 @@ export function ProfileTab() {
     >
       <div className="flex items-center gap-4">
         <div className="relative">
-          <Avatar initials="MA" size={64} />
+          <Avatar initials="KB" size={64} />
           <button
             aria-label="Change avatar"
             className="absolute -bottom-1 -right-1 flex size-7 items-center justify-center rounded-full border-2 border-surface bg-ink text-bg"
@@ -27,30 +27,30 @@ export function ProfileTab() {
           </button>
         </div>
         <div>
-          <p className="text-[14px] font-semibold text-ink">Mac O&apos;Brien</p>
-          <p className="text-[12.5px] text-ink-faint">macdobrien08@gmail.com</p>
+          <p className="text-[14px] font-semibold text-ink">Kieron Bolt</p>
+          <p className="text-[12.5px] text-ink-faint">kieron@treacysolar.ie</p>
         </div>
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <Field label="Full name">
-          <TextInput defaultValue="Mac O'Brien" />
+          <TextInput defaultValue="Kieron Bolt" />
         </Field>
         <Field label="Display name" helper="Shown to your team across the workspace">
-          <TextInput defaultValue="mac" />
+          <TextInput defaultValue="kieron" />
         </Field>
         <Field label="Email address">
-          <TextInput defaultValue="macdobrien08@gmail.com" type="email" />
+          <TextInput defaultValue="kieron@treacysolar.ie" type="email" />
         </Field>
         <Field label="Role" helper="Set by your workspace admin">
-          <TextInput defaultValue="Product Engineer" disabled />
+          <TextInput defaultValue="Systems Lead" disabled />
         </Field>
       </div>
 
       <Field label="Bio" helper="A short introduction visible on your profile card">
         <textarea
           rows={3}
-          defaultValue="Building the Northbeam workspace template."
+          defaultValue="Systems lead at Treacy Solar."
           className="resize-none rounded-[10px] border border-border bg-bg px-3 py-2.5 text-[13.5px] text-ink placeholder:text-ink-faint transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
         />
       </Field>

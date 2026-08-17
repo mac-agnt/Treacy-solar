@@ -26,7 +26,7 @@ export function AppearanceTab() {
       <div>
         <p className="text-[13px] font-medium text-ink">Theme</p>
         <p className="mt-0.5 text-[12px] text-ink-faint">
-          Choose how Northbeam looks on this device.
+          Choose how Treacy Solar looks on this device.
         </p>
 
         <div className="mt-3 grid grid-cols-3 gap-3">

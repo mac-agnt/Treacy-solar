@@ -44,7 +44,7 @@ export function MobileNav({
               <div className="flex size-9 items-center justify-center rounded-[10px] bg-accent text-accent-ink">
                 <Stack weight="fill" size={18} />
               </div>
-              <p className="text-[15px] font-semibold text-ink">Northbeam</p>
+              <p className="text-[15px] font-semibold text-ink">Treacy Solar</p>
               <button
                 onClick={onClose}
                 className="ml-auto flex size-9 items-center justify-center rounded-[10px] text-ink-faint hover:bg-border-soft"
